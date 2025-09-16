@@ -178,4 +178,64 @@ The graph of water level against flow rate is shown below.
 
 <img width="432" height="139" alt="image" src="https://github.com/user-attachments/assets/bf66b33a-0d8c-476c-bc89-73b265f9c052" />
 
+# Flood Prediction using rainfall data Available from meteo
+
+
+<img width="560" height="524" alt="image" src="https://github.com/user-attachments/assets/25244d07-75ed-4df9-b29c-2f2a3ef4645c" />
+
+The graph below shows the variation of monthly rainfall for the year 2013-2020. Series 1
+corresponds to the year 2013 and series 8 to 2020.
+
+
+<img width="455" height="400" alt="image" src="https://github.com/user-attachments/assets/f8e192fd-8f87-4ac5-a753-d2221c096f72" />
+
+## Rainfall frequency Analysis using Gumbel Distribution
+
+The total annual rainfall for the year 2013-2020 is depicted in the graph below.
+
+
+<img width="431" height="252" alt="image" src="https://github.com/user-attachments/assets/63091b9c-a28e-4eca-98df-5ab81200a2e2" />
+
+
+<img width="328" height="322" alt="image" src="https://github.com/user-attachments/assets/89ae2685-9178-4b42-a6b1-59a5b3a32be7" />
+
+
+<img width="427" height="662" alt="image" src="https://github.com/user-attachments/assets/43171f31-a5f2-4e48-83e2-0c224bc0818e" />
+
+
+<img width="557" height="606" alt="image" src="https://github.com/user-attachments/assets/30fde38f-0d53-4fc5-a483-f110968273b0" />
+
+
+<img width="432" height="329" alt="image" src="https://github.com/user-attachments/assets/076dda83-a3d1-4816-a7d4-5e4a4c42d66e" />
+
+The Gumbel distribution method can be used to predict long term floods and can be used to
+create flood risk mapping. Annual Rainfall data obtained from the meteomauritius was used to
+find the return period of rain occurring during a current year. Flash floods in Mauritius are
+usually associated with heavy rainfall. This rainfall data can be used to predict the year in which
+similar rainfall might occur. For example a certain flash flood which occurred during a certain
+year x brought a high level of rainfall and the return period was found as r years. There is a high
+possibility of such flood to occur in year x+r.
+
+# Conclusion
+
+Flash floods can be predicted using different flood parameters. During flash floods, the river
+banks overflow and the water flows into the residences of many locals and damages their
+property. This project successfully monitors the water level and associated parameters that vary
+with flash floods such as soil moisture and flow rate on Cayenne and Blynk and sets thresholds
+values for the changing parameters. Once the parameter is exceeded, Cayenne sends an email and
+an SMS to the concerned people.
+The reyax module allows communication of sensors’ data collected from the river to the
+dashboards. The dashboards are user friendly and threshold values are set on the gauges to allow
+the users to identify a potential flash flood. When the gauge value exceeds the predefined value,
+the gauge reading turns red.
+The results obtained for the month of May can be compared with past results. When there is an
+increase in rainfall, the water level also increases. From usgs.gov, the variation of flow rate and
+rainfall were reviewed. As the rainfall increased, the flowrate also increased. Therefore, an
+increase in water level also results in an increase in flow rate during rainy conditions. The
+variation of water level against flow rate from the results adhered to past literature and we were
+able to derive a linear relationship between them. Tesař, Fiedler and Dvořák discussed the
+variation of soil permeability versus soil texture. Soil whether in the sand, clay, or silt form
+always absorbs water. The water absorbed causes the soil to become moist. As water level rises,
+more water is absorbed on the river banks and from the results a linear relationship was derived
+to show the soil moisture variation with water level.
 
